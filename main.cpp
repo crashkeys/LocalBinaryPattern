@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
     setLogLevel(utils::logging::LogLevel::LOG_LEVEL_SILENT);
 
     int REPETITIONS = 30;
-    ofstream csvFile("/mnt/c/Users/Irene/Desktop/graphs/OMP_4.5/test.csv");
+    ofstream csvFile("your/output/folder/test.csv");
     csvFile << "ImgSize,Time(microsec)" << endl;
 
     String filename = "startsmall.jpg";
